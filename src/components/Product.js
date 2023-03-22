@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import MainContext from "../MainContext";
 
-function Product({ product, basket, setBasket }) {
+function Product({ product }) {
+  const { basket, setBasket, total, money } = useContext(MainContext);
+
   const basketItem = basket.find((item) => item.id === product.id);
 
   const addBasket = () => {
@@ -40,11 +43,15 @@ function Product({ product, basket, setBasket }) {
         <h3>{product.title}</h3>
         <div className="price">{product.price} $</div>
         <div>
-          <button onClick={removeBasket}>Sat</button>
+          <button disabled={!basketItem} onClick={removeBasket}>
+            Sat
+          </button>
           <span className="amount">
             {(basketItem && basketItem.amount) || 0}
           </span>
-          <button onClick={addBasket}>Satın Al</button>
+          <button disabled={total + product.price > money} onClick={addBasket}>
+            Satın Al
+          </button>
         </div>
         <style jsx>{`
           .product {
