@@ -6,9 +6,11 @@ function BasketItem({ item }) {
   const { products } = useContext(MainContext);
   const product = products.find((p) => p.id === item.id);
   return (
-    <div>
-      {product.title} x {item.amount}
-    </div>
+    <li className="basket-item">
+      <img src={product.image} />
+      {product.title}
+      <span> x {item.amount}</span>
+    </li>
   );
 }
 

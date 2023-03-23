@@ -1,32 +1,170 @@
 [
   {
     "id": 1,
-    "title": "ayakkabı",
-    "price": 50,
-    "image": "https://st-vans.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/637639372726016847.jpg"
+    "title": "Kahve",
+    "price": 4,
+    "image": "https://kalorisor.com/uploads/images/urun/starbucks-filtre-kahve.jpg"
   },
   {
     "id": 2,
-    "title": "telefon",
-    "price": 500,
-    "image": "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mqc43tua-apple-iphone-14-pro-max-1tb-altin-mqc43tua-637987438071031178.jpg"
-  },
-  {
-    "id": 3,
-    "title": "bilgisayar",
-    "price": 1000,
-    "image": "https://cdn.cimri.io/image/320x320/apple-macbook-air-mqd32tua-intel-core-i5-8-gb-ram-128-ssd-133-inc-laptop-notebook_649621881.jpg"
-  },
-  {
-    "id": 4,
-    "title": "termos",
+    "title": "Termos",
     "price": 25,
     "image": "https://n11scdn.akamaized.net/a1/org/ev-yasam/termos/fijoo-1000-ml-paslanmaz-celik-termos-gri__1068055382780197.jpg"
   },
   {
+    "id": 3,
+    "title": "Ayakkabı",
+    "price": 50,
+    "image": "https://st-vans.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/637639372726016847.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Kulaklık",
+    "price": 75,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/philips/thumb/115596_small.jpg"
+  },
+  {
     "id": 5,
-    "title": "araba",
-    "price": 40000,
+    "title": "Playstation 5",
+    "price": 500,
+    "image": "https://resim.epey.com/568287/m_sony-playstation-5-digital-edition-1.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Bisiklet",
+    "price": 800,
+    "image": "https://contents.mediadecathlon.com/p2094745/k$119d5387c9c3702bcc79077004a0ebcd/sq/8581227.jpg?format=auto&f=800x0"
+  },
+  {
+    "id": 7,
+    "title": "Drone",
+    "price": 900,
+    "image": "https://productimages.hepsiburada.net/s/72/375/110000013440154.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Telefon",
+    "price": 1000,
+    "image": "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mqc43tua-apple-iphone-14-pro-max-1tb-altin-mqc43tua-637987438071031178.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Bilgisayar",
+    "price": 1500,
+    "image": "https://cdn.cimri.io/image/320x320/apple-macbook-air-mqd32tua-intel-core-i5-8-gb-ram-128-ssd-133-inc-laptop-notebook_649621881.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Jet ski",
+    "price": 10000,
+    "image": "http://sc04.alicdn.com/kf/Ha0fa4347231e4cd192e6af3ae66f70454.jpg"
+  },
+  {
+    "id": 11,
+    "title": "4K TV",
+    "price": 12000,
+    "image": "https://ayb.akinoncdn.com/products/2021/12/16/85015/34f95b92-313d-466b-a392-b1fe2fda895b_size780x780_quality60_cropCenter.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Rolex",
+    "price": 15000,
+    "image": "https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m128396tbr-0004.png?impolicy=v6-upright&imwidth=270"
+  },
+  {
+    "id": 13,
+    "title": "Clio",
+    "price": 20000,
     "image": "https://www.massrentacar.com/image/cache/catalog/renault-clio-hb-dizel-otomatik-1-1-800x800.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Hız Teknesi",
+    "price": 30000,
+    "image": "https://img.joomcdn.net/fddac340edb32589f43be03c636dacf1e7e9a30c_original.jpeg"
+  },
+  {
+    "id": 15,
+    "title": "Tesla",
+    "price": 70000,
+    "image": "https://teslamotorsclub.com/tmc/data/avatars/h/249/249722.jpg?1668704326"
+  },
+  {
+    "id": 16,
+    "title": "Helikopter",
+    "price": 150000,
+    "image": "https://preview.free3d.com/img/2015/02/2408168410044172266/wlwg4acn.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Ferrari",
+    "price": 200000,
+    "image": "https://productimages.hepsiburada.net/s/63/375/110000005144435.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Home",
+    "price": 250000,
+    "image": "https://cdn.houseplansservices.com/content/hjuf6pe2lut8d35lthgk9maotb/w575.jpg?v=10"
+  },
+  {
+    "id": 19,
+    "title": "Bar",
+    "price": 300000,
+    "image": "https://www.gopos.com.tr/wp-content/uploads/2019/11/Bar-a%C3%A7arken-nelere-dikat-etmeli-1.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Pizza Shop",
+    "price": 500000,
+    "image": "https://d2unfigtnsklzd.cloudfront.net/wp-content/uploads/2022/01/DSF0658-scaled.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Yazlık",
+    "price": 1000000,
+    "image": "https://nashvillelifestyles.com/downloads/44415/download/1280_boomver_1_911685-1.jpeg?cb=1e2e8ebb5b4bf66298227ec04cae54a3&w=1280"
+  },
+  {
+    "id": 22,
+    "title": "Yat",
+    "price": 10000000,
+    "image": "https://img.paratic.com/dosya/2017/01/etkileyici-tasarimlara-sahip-luks-yatlar-ve-yelkenliler-baglietto-46m-fast.jpg"
+  },
+  {
+    "id": 23,
+    "title": "F16",
+    "price": 15000000,
+    "image": "https://gdb.voanews.com/a7925a1f-dabe-4339-8419-aa8f15f4dca1_w1200_r1.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Hull City",
+    "price": 25000000,
+    "image": "https://i12.haber7.net//haber/haber7/og_image/2022/43/hull_cityden_lgbt_destegi_turk_futbolseverler_tepki_gosterdi_1666989659_8408.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Plaza",
+    "price": 35000000,
+    "image": "https://www.egegrupyapi.com/media/1039/ege_plaza_010_mobileCrop.jpg"
+  },
+  {
+    "id": 26,
+    "title": "NBA Team",
+    "price": 1300000000,
+    "image": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Fnba.png"
+  },
+  {
+    "id": 27,
+    "title": "MLB Team",
+    "price": 1500000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Major_League_Baseball_logo.svg/800px-Major_League_Baseball_logo.svg.png"
+  },
+  {
+    "id": 28,
+    "title": "NFL Team",
+    "price": 2000000000,
+    "image": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Fnfl.png"
   }
 ]

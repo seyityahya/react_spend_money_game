@@ -51,8 +51,7 @@ function App() {
             />
           ))}
         </div>
-        <Basket basket={basket} total={total} />
-        <button onClick={resetBasket}>Sıfırla</button>
+        <Basket basket={basket} total={total} resetBasket={resetBasket} />
       </MainContext.Provider>
     </>
   );
