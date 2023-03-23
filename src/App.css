@@ -169,3 +169,22 @@
   cursor: pointer;
   border-radius: 5px;
 }
+
+.para-seçme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.para-seçme button {
+  width: 180px;
+  align-items: center;
+  height: 180px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}

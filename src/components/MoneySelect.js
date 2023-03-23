@@ -10,8 +10,15 @@ function MoneySelect() {
   };
   return (
     <>
-      <button onClick={() => moneyChange(10000000)}>Bill Gates</button>
-      <button onClick={() => moneyChange(200000000)}>Elon Musk</button>
+      <div className="para-seçme">
+        <button onClick={() => moneyChange(200000000000)}>Elon Musk</button>
+        <button onClick={() => moneyChange(120000000000)}>Jeff Bezos</button>
+        <button onClick={() => moneyChange(100000000000)}>Bill Gates</button>
+        <button onClick={() => moneyChange(70000000000)}>
+          Mark Zuckerberg
+        </button>
+        <button onClick={() => moneyChange(2000000000)}>Acun Ilıcalı</button>
+      </div>
     </>
   );
 }
