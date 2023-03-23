@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import MainContext from "../MainContext";
+import { moneyFormat } from "../helper";
 
 function Product({ product }) {
   const { basket, setBasket, total, money } = useContext(MainContext);
@@ -40,27 +41,28 @@ function Product({ product }) {
   return (
     <>
       <div className="product">
+        <img src={product.image} alt="" />
         <h3>{product.title}</h3>
-        <div className="price">{product.price} $</div>
-        <div>
-          <button disabled={!basketItem} onClick={removeBasket}>
+        <div className="price">{moneyFormat(product.price)} $</div>
+        <div className="actions">
+          <button
+            className="sell-btn"
+            disabled={!basketItem}
+            onClick={removeBasket}
+          >
             Sat
           </button>
           <span className="amount">
             {(basketItem && basketItem.amount) || 0}
           </span>
-          <button disabled={total + product.price > money} onClick={addBasket}>
+          <button
+            className="buy-btn"
+            disabled={total + product.price > money}
+            onClick={addBasket}
+          >
             Satın Al
           </button>
         </div>
-        <style jsx>{`
-          .product {
-            padding: 10px;
-            background: #fff;
-            border: 1px solid #ddd;
-            margin-bottom: 20px;
-          }
-        `}</style>
       </div>
     </>
   );

@@ -2,21 +2,31 @@
   {
     "id": 1,
     "title": "ayakkabı",
-    "price": 50
+    "price": 50,
+    "image": "https://st-vans.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/637639372726016847.jpg"
   },
   {
     "id": 2,
     "title": "telefon",
-    "price": 500
+    "price": 500,
+    "image": "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mqc43tua-apple-iphone-14-pro-max-1tb-altin-mqc43tua-637987438071031178.jpg"
   },
   {
     "id": 3,
     "title": "bilgisayar",
-    "price": 1000
+    "price": 1000,
+    "image": "https://cdn.cimri.io/image/320x320/apple-macbook-air-mqd32tua-intel-core-i5-8-gb-ram-128-ssd-133-inc-laptop-notebook_649621881.jpg"
   },
   {
     "id": 4,
     "title": "termos",
-    "price": 25
+    "price": 25,
+    "image": "https://n11scdn.akamaized.net/a1/org/ev-yasam/termos/fijoo-1000-ml-paslanmaz-celik-termos-gri__1068055382780197.jpg"
+  },
+  {
+    "id": 5,
+    "title": "araba",
+    "price": 40000,
+    "image": "https://www.massrentacar.com/image/cache/catalog/renault-clio-hb-dizel-otomatik-1-1-800x800.jpg"
   }
 ]

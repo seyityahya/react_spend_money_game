@@ -8,7 +8,7 @@ import MoneySelect from "./components/MoneySelect";
 import Basket from "./components/Basket";
 
 function App() {
-  const [money, setMoney] = useState(10000);
+  const [money, setMoney] = useState(1000000);
   const [basket, setBasket] = useState([]);
   const [total, setTotal] = useState(0);
 
@@ -41,14 +41,16 @@ function App() {
       <MainContext.Provider value={data}>
         <MoneySelect />
         <Header money={money} />
-        {products.map((product) => (
-          <Product
-            key={product.id}
-            basket={basket}
-            setBasket={setBasket}
-            product={product}
-          />
-        ))}
+        <div className="container products">
+          {products.map((product) => (
+            <Product
+              key={product.id}
+              basket={basket}
+              setBasket={setBasket}
+              product={product}
+            />
+          ))}
+        </div>
         <Basket basket={basket} total={total} />
         <button onClick={resetBasket}>Sıfırla</button>
       </MainContext.Provider>

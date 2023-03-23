@@ -5,17 +5,23 @@ import { moneyFormat } from "../helper";
 function Header() {
   const { money, total } = useContext(MainContext);
   return (
-    <div>
+    <>
       {total > 0 && money - total !== 0 && (
-        <div>Harcayacak {moneyFormat(money - total)} $ paranız kaldı!</div>
+        <div className="header">
+          Harcayacak <span>{moneyFormat(money - total)} $</span> paranız kaldı!
+        </div>
       )}
       {total === 0 && (
-        <div>Harcayacak {moneyFormat(money)} $ paranız kaldı!</div>
+        <div className="header">
+          Harcayacak <span>{moneyFormat(money)} $</span> paranız kaldı!
+        </div>
       )}
       {money - total === 0 && (
-        <div>Paran bitti parasız insanı sadece annesi sever</div>
+        <div className="header">
+          Paran bitti parasız insanı sadece annesi sever
+        </div>
       )}
-    </div>
+    </>
   );
 }
 
