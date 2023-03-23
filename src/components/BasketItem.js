@@ -6,8 +6,8 @@ function BasketItem({ item }) {
   const { products } = useContext(MainContext);
   const product = products.find((p) => p.id === item.id);
   return (
-    <li className="basket-item">
-      <img src={product.image} />
+    <li className="basket-item" key={product.id}>
+      <img src={product.image} alt="" />
       {product.title}
       <span> x {item.amount}</span>
     </li>

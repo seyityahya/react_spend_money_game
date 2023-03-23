@@ -9,7 +9,7 @@ function Basket({ basket, total, resetBasket }) {
         <h3>Alışveriş Detayları</h3>
         <div className="basket-product">
           {basket.map((item) => (
-            <ul>
+            <ul key={item.id}>
               <BasketItem key={item.id} item={item} />
             </ul>
           ))}
